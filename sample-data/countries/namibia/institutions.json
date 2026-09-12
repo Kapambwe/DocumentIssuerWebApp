@@ -1,0 +1,68 @@
+{
+  "CountrySlug": "namibia",
+  "CountryName": "Namibia",
+  "DisplayName": "Republic of Namibia",
+  "Description": "Public signing institutions authorised to sign digital government documents in Namibia.",
+  "Institutions": [
+    {
+      "InstitutionName": "Namibia Revenue Agency",
+      "InstitutionSlug": "namibia-revenue-agency",
+      "InstitutionType": "Revenue Authority",
+      "SignerName": "Commissioner",
+      "SignerRole": "Tax Signatory",
+      "PublicKeyId": "did:web:namra.com.na#key-1",
+      "PublicKeyType": "RSA-3072",
+      "PublicKeyPem": "-----BEGIN PUBLIC KEY-----\\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnamraMockKey1QIDAQAB\\n-----END PUBLIC KEY-----",
+      "PublicKeyPurpose": "Signs tax clearance and customs compliance certificates.",
+      "DocumentsSigned": [ "Tax Clearance", "Customs Compliance Certificate" ]
+    },
+    {
+      "InstitutionName": "Bank Windhoek",
+      "InstitutionSlug": "bank-windhoek",
+      "InstitutionType": "Commercial Bank",
+      "SignerName": "Head of Compliance",
+      "SignerRole": "Bank Signatory",
+      "PublicKeyId": "did:web:bankwindhoek.com.na#key-1",
+      "PublicKeyType": "RSA-3072",
+      "PublicKeyPem": "-----BEGIN PUBLIC KEY-----\\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAbwindMockBank1QIDAQAB\\n-----END PUBLIC KEY-----",
+      "PublicKeyPurpose": "Signs bank statements and proof-of-account documents.",
+      "DocumentsSigned": [ "Bank Statement", "Proof of Account" ]
+    },
+    {
+      "InstitutionName": "Namibia Qualifications Authority",
+      "InstitutionSlug": "namibia-qualifications-authority",
+      "InstitutionType": "Education Regulator",
+      "SignerName": "Chief Executive Officer",
+      "SignerRole": "Registrar",
+      "PublicKeyId": "did:web:nqa.org.na#key-1",
+      "PublicKeyType": "RSA-2048",
+      "PublicKeyPem": "-----BEGIN PUBLIC KEY-----\\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnaqaMockKey2QIDAQAB\\n-----END PUBLIC KEY-----",
+      "PublicKeyPurpose": "Signs qualification recognition and accreditation documents.",
+      "DocumentsSigned": [ "Qualification Recognition", "Accreditation Certificate" ]
+    },
+    {
+      "InstitutionName": "Ministry of Home Affairs, Immigration, Safety and Security",
+      "InstitutionSlug": "ministry-of-home-affairs-immigration-safety-and-security",
+      "InstitutionType": "Civil Registry",
+      "SignerName": "Executive Director",
+      "SignerRole": "Chief Signatory",
+      "PublicKeyId": "did:web:mhaiss.gov.na#key-1",
+      "PublicKeyType": "RSA-2048",
+      "PublicKeyPem": "-----BEGIN PUBLIC KEY-----\\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmhaissMockKey3QIDAQAB\\n-----END PUBLIC KEY-----",
+      "PublicKeyPurpose": "Signs identity, immigration, and civil registration records.",
+      "DocumentsSigned": [ "Identity Document", "Birth Certificate", "Residence Permit" ]
+    },
+    {
+      "InstitutionName": "Namibian Financial Institutions Supervisory Authority",
+      "InstitutionSlug": "namibian-financial-institutions-supervisory-authority",
+      "InstitutionType": "Insurance Regulator",
+      "SignerName": "Chief Executive Officer",
+      "SignerRole": "Regulatory Signatory",
+      "PublicKeyId": "did:web:nfisa.na#key-1",
+      "PublicKeyType": "RSA-3072",
+      "PublicKeyPem": "-----BEGIN PUBLIC KEY-----\\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgCAQEAnfisaMockIns1QIDAQAB\\n-----END PUBLIC KEY-----",
+      "PublicKeyPurpose": "Signs insurer authorisations, market conduct notices, and compliance approvals.",
+      "DocumentsSigned": [ "Insurance License", "Compliance Notice" ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+﻿{
+    "InstitutionSlug":  "zambia-national-commercial-bank",
+    "CountryCapabilityTags":  [
+                                  "Identity",
+                                  "Issuance",
+                                  "Verification"
+                              ],
+    "OrganizationType":  "CommercialBank",
+    "InstitutionType":  "Commercial Bank",
+    "CountrySlug":  "zambia",
+    "InstitutionName":  "Zambia National Commercial Bank",
+    "TenantType":  "Bank",
+    "AccessiblePages":  [
+                            "/",
+                            "/admin/review-queue",
+                            "/admin/verifiable-credentials"
+                        ],
+    "EffectiveInstitutionPermissions":  [
+                                            "Gov.Access",
+                                            "Gov.Issue",
+                                            "Gov.Review",
+                                            "Gov.Audit"
+                                        ],
+    "Roles":  [
+                  {
+                      "TemplateRole":  "Gov.Admin",
+                      "Permissions":  [
+                                          "Gov.Access",
+                                          "Gov.Issue",
+                                          "Gov.Review",
+                                          "Gov.Audit"
+                                      ],
+                      "RoleName":  "System Administrator",
+                      "RoleId":  "zambia-national-commercial-bank.admin"
+                  },
+                  {
+                      "TemplateRole":  "Gov.Officer",
+                      "Permissions":  [
+                                          "Gov.Access",
+                                          "Gov.Issue"
+                                      ],
+                      "RoleName":  "Issuer Officer",
+                      "RoleId":  "zambia-national-commercial-bank.officer"
+                  },
+                  {
+                      "TemplateRole":  "Gov.Reviewer",
+                      "Permissions":  [
+                                          "Gov.Access",
+                                          "Gov.Review"
+                                      ],
+                      "RoleName":  "Reviewer",
+                      "RoleId":  "zambia-national-commercial-bank.reviewer"
+                  },
+                  {
+                      "TemplateRole":  "Gov.Auditor",
+                      "Permissions":  [
+                                          "Gov.Access",
+                                          "Gov.Audit"
+                                      ],
+                      "RoleName":  "Auditor",
+                      "RoleId":  "zambia-national-commercial-bank.auditor"
+                  }
+              ],
+    "CountryName":  "Zambia",
+    "InstitutionTypePermissions":  [
+                                       "Gov.Access",
+                                       "Gov.Issue",
+                                       "Gov.Review",
+                                       "Gov.Audit"
+                                   ],
+    "CountryRecommendedPermissions":  [
+                                          "Gov.Access",
+                                          "Gov.Issue",
+                                          "Gov.Review",
+                                          "Gov.Audit"
+                                      ]
+}

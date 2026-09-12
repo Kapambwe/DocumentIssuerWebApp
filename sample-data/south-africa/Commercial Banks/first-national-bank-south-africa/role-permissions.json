@@ -1,0 +1,77 @@
+﻿{
+    "InstitutionSlug":  "first-national-bank-south-africa",
+    "CountryCapabilityTags":  [
+                                  "Identity",
+                                  "Issuance",
+                                  "Verification"
+                              ],
+    "OrganizationType":  "GovernmentAgency",
+    "InstitutionType":  "commercial banks",
+    "CountrySlug":  "south-africa",
+    "InstitutionName":  "First National Bank South Africa",
+    "TenantType":  "Gov",
+    "AccessiblePages":  [
+                            "/",
+                            "/admin/review-queue",
+                            "/admin/verifiable-credentials"
+                        ],
+    "EffectiveInstitutionPermissions":  [
+                                            "Gov.Access",
+                                            "Gov.Issue",
+                                            "Gov.Review",
+                                            "Gov.Audit"
+                                        ],
+    "Roles":  [
+                  {
+                      "TemplateRole":  "Gov.Admin",
+                      "Permissions":  [
+                                          "Gov.Access",
+                                          "Gov.Issue",
+                                          "Gov.Review",
+                                          "Gov.Audit"
+                                      ],
+                      "RoleName":  "System Administrator",
+                      "RoleId":  "first-national-bank-south-africa.admin"
+                  },
+                  {
+                      "TemplateRole":  "Gov.Officer",
+                      "Permissions":  [
+                                          "Gov.Access",
+                                          "Gov.Issue"
+                                      ],
+                      "RoleName":  "Issuer Officer",
+                      "RoleId":  "first-national-bank-south-africa.officer"
+                  },
+                  {
+                      "TemplateRole":  "Gov.Reviewer",
+                      "Permissions":  [
+                                          "Gov.Access",
+                                          "Gov.Review"
+                                      ],
+                      "RoleName":  "Reviewer",
+                      "RoleId":  "first-national-bank-south-africa.reviewer"
+                  },
+                  {
+                      "TemplateRole":  "Gov.Auditor",
+                      "Permissions":  [
+                                          "Gov.Access",
+                                          "Gov.Audit"
+                                      ],
+                      "RoleName":  "Auditor",
+                      "RoleId":  "first-national-bank-south-africa.auditor"
+                  }
+              ],
+    "CountryName":  "South Africa",
+    "InstitutionTypePermissions":  [
+                                       "Gov.Access",
+                                       "Gov.Issue",
+                                       "Gov.Review",
+                                       "Gov.Audit"
+                                   ],
+    "CountryRecommendedPermissions":  [
+                                          "Gov.Access",
+                                          "Gov.Issue",
+                                          "Gov.Review",
+                                          "Gov.Audit"
+                                      ]
+}

@@ -1,0 +1,77 @@
+﻿{
+    "InstitutionSlug":  "bank-of-zambia",
+    "CountryCapabilityTags":  [
+                                  "Identity",
+                                  "Issuance",
+                                  "Verification"
+                              ],
+    "OrganizationType":  "GovernmentAgency",
+    "InstitutionType":  "Financial Regulator",
+    "CountrySlug":  "zambia",
+    "InstitutionName":  "Bank of Zambia",
+    "TenantType":  "Gov",
+    "AccessiblePages":  [
+                            "/",
+                            "/admin/review-queue",
+                            "/admin/verifiable-credentials"
+                        ],
+    "EffectiveInstitutionPermissions":  [
+                                            "Gov.Access",
+                                            "Gov.Issue",
+                                            "Gov.Review",
+                                            "Gov.Audit"
+                                        ],
+    "Roles":  [
+                  {
+                      "TemplateRole":  "Gov.Admin",
+                      "Permissions":  [
+                                          "Gov.Access",
+                                          "Gov.Issue",
+                                          "Gov.Review",
+                                          "Gov.Audit"
+                                      ],
+                      "RoleName":  "System Administrator",
+                      "RoleId":  "bank-of-zambia.admin"
+                  },
+                  {
+                      "TemplateRole":  "Gov.Officer",
+                      "Permissions":  [
+                                          "Gov.Access",
+                                          "Gov.Issue"
+                                      ],
+                      "RoleName":  "Issuer Officer",
+                      "RoleId":  "bank-of-zambia.officer"
+                  },
+                  {
+                      "TemplateRole":  "Gov.Reviewer",
+                      "Permissions":  [
+                                          "Gov.Access",
+                                          "Gov.Review"
+                                      ],
+                      "RoleName":  "Reviewer",
+                      "RoleId":  "bank-of-zambia.reviewer"
+                  },
+                  {
+                      "TemplateRole":  "Gov.Auditor",
+                      "Permissions":  [
+                                          "Gov.Access",
+                                          "Gov.Audit"
+                                      ],
+                      "RoleName":  "Auditor",
+                      "RoleId":  "bank-of-zambia.auditor"
+                  }
+              ],
+    "CountryName":  "Zambia",
+    "InstitutionTypePermissions":  [
+                                       "Gov.Access",
+                                       "Gov.Issue",
+                                       "Gov.Review",
+                                       "Gov.Audit"
+                                   ],
+    "CountryRecommendedPermissions":  [
+                                          "Gov.Access",
+                                          "Gov.Issue",
+                                          "Gov.Review",
+                                          "Gov.Audit"
+                                      ]
+}

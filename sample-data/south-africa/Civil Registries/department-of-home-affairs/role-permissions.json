@@ -1,0 +1,77 @@
+﻿{
+    "InstitutionSlug":  "department-of-home-affairs",
+    "CountryCapabilityTags":  [
+                                  "Identity",
+                                  "Issuance",
+                                  "Verification"
+                              ],
+    "OrganizationType":  "GovernmentAgency",
+    "InstitutionType":  "civil registries",
+    "CountrySlug":  "south-africa",
+    "InstitutionName":  "Department of Home Affairs",
+    "TenantType":  "Gov",
+    "AccessiblePages":  [
+                            "/",
+                            "/admin/review-queue",
+                            "/admin/verifiable-credentials"
+                        ],
+    "EffectiveInstitutionPermissions":  [
+                                            "Gov.Access",
+                                            "Gov.Issue",
+                                            "Gov.Review",
+                                            "Gov.Audit"
+                                        ],
+    "Roles":  [
+                  {
+                      "TemplateRole":  "Gov.Admin",
+                      "Permissions":  [
+                                          "Gov.Access",
+                                          "Gov.Issue",
+                                          "Gov.Review",
+                                          "Gov.Audit"
+                                      ],
+                      "RoleName":  "System Administrator",
+                      "RoleId":  "department-of-home-affairs.admin"
+                  },
+                  {
+                      "TemplateRole":  "Gov.Officer",
+                      "Permissions":  [
+                                          "Gov.Access",
+                                          "Gov.Issue"
+                                      ],
+                      "RoleName":  "Issuer Officer",
+                      "RoleId":  "department-of-home-affairs.officer"
+                  },
+                  {
+                      "TemplateRole":  "Gov.Reviewer",
+                      "Permissions":  [
+                                          "Gov.Access",
+                                          "Gov.Review"
+                                      ],
+                      "RoleName":  "Reviewer",
+                      "RoleId":  "department-of-home-affairs.reviewer"
+                  },
+                  {
+                      "TemplateRole":  "Gov.Auditor",
+                      "Permissions":  [
+                                          "Gov.Access",
+                                          "Gov.Audit"
+                                      ],
+                      "RoleName":  "Auditor",
+                      "RoleId":  "department-of-home-affairs.auditor"
+                  }
+              ],
+    "CountryName":  "South Africa",
+    "InstitutionTypePermissions":  [
+                                       "Gov.Access",
+                                       "Gov.Issue",
+                                       "Gov.Review",
+                                       "Gov.Audit"
+                                   ],
+    "CountryRecommendedPermissions":  [
+                                          "Gov.Access",
+                                          "Gov.Issue",
+                                          "Gov.Review",
+                                          "Gov.Audit"
+                                      ]
+}

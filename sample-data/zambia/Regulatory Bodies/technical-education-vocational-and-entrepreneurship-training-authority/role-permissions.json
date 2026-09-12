@@ -1,0 +1,77 @@
+﻿{
+    "InstitutionSlug":  "technical-education-vocational-and-entrepreneurship-training-authority",
+    "CountryCapabilityTags":  [
+                                  "Identity",
+                                  "Issuance",
+                                  "Verification"
+                              ],
+    "OrganizationType":  "GovernmentAgency",
+    "InstitutionType":  "regulatory bodies",
+    "CountrySlug":  "zambia",
+    "InstitutionName":  "Technical Education, Vocational and Entrepreneurship Training Authority",
+    "TenantType":  "Gov",
+    "AccessiblePages":  [
+                            "/",
+                            "/admin/review-queue",
+                            "/admin/verifiable-credentials"
+                        ],
+    "EffectiveInstitutionPermissions":  [
+                                            "Gov.Access",
+                                            "Gov.Issue",
+                                            "Gov.Review",
+                                            "Gov.Audit"
+                                        ],
+    "Roles":  [
+                  {
+                      "TemplateRole":  "Gov.Admin",
+                      "Permissions":  [
+                                          "Gov.Access",
+                                          "Gov.Issue",
+                                          "Gov.Review",
+                                          "Gov.Audit"
+                                      ],
+                      "RoleName":  "System Administrator",
+                      "RoleId":  "technical-education-vocational-and-entrepreneurship-training-authority.admin"
+                  },
+                  {
+                      "TemplateRole":  "Gov.Officer",
+                      "Permissions":  [
+                                          "Gov.Access",
+                                          "Gov.Issue"
+                                      ],
+                      "RoleName":  "Issuer Officer",
+                      "RoleId":  "technical-education-vocational-and-entrepreneurship-training-authority.officer"
+                  },
+                  {
+                      "TemplateRole":  "Gov.Reviewer",
+                      "Permissions":  [
+                                          "Gov.Access",
+                                          "Gov.Review"
+                                      ],
+                      "RoleName":  "Reviewer",
+                      "RoleId":  "technical-education-vocational-and-entrepreneurship-training-authority.reviewer"
+                  },
+                  {
+                      "TemplateRole":  "Gov.Auditor",
+                      "Permissions":  [
+                                          "Gov.Access",
+                                          "Gov.Audit"
+                                      ],
+                      "RoleName":  "Auditor",
+                      "RoleId":  "technical-education-vocational-and-entrepreneurship-training-authority.auditor"
+                  }
+              ],
+    "CountryName":  "Zambia",
+    "InstitutionTypePermissions":  [
+                                       "Gov.Access",
+                                       "Gov.Issue",
+                                       "Gov.Review",
+                                       "Gov.Audit"
+                                   ],
+    "CountryRecommendedPermissions":  [
+                                          "Gov.Access",
+                                          "Gov.Issue",
+                                          "Gov.Review",
+                                          "Gov.Audit"
+                                      ]
+}

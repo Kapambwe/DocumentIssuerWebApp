@@ -1,0 +1,58 @@
+{
+  "CountrySlug": "south-africa",
+  "CountryName": "South Africa",
+  "DisplayName": "Republic of South Africa",
+  "Description": "Document types available to institutions operating in South Africa.",
+  "InstitutionTypeDocumentTypes": [
+    {
+      "InstitutionType": "Civil Registry",
+      "DocumentTypes": [
+        { "DocumentType": "Identity Document", "ServiceId": "national-id" },
+        { "DocumentType": "Birth Certificate", "ServiceId": "birth-certificate" },
+        { "DocumentType": "Death Certificate", "ServiceId": "death-certificate" },
+        { "DocumentType": "EUDI-W Attestation", "ServiceId": "eudiw-attestation" }
+      ]
+    },
+    {
+      "InstitutionType": "Transport Authority",
+      "DocumentTypes": [
+        { "DocumentType": "Driver's License", "ServiceId": "drivers-license" },
+        { "DocumentType": "Vehicle Registration", "ServiceId": "vehicle-registration" },
+        { "DocumentType": "EUDI-W Attestation", "ServiceId": "eudiw-attestation" }
+      ]
+    },
+    {
+      "InstitutionType": "Business Registry",
+      "DocumentTypes": [
+        { "DocumentType": "Business Registration", "ServiceId": "business-registration" },
+        { "DocumentType": "Trademark Registration", "ServiceId": "trademark-registration" },
+        { "DocumentType": "EUDI-W Attestation", "ServiceId": "eudiw-attestation" }
+      ]
+    },
+    {
+      "InstitutionType": "Revenue Authority",
+      "DocumentTypes": [
+        { "DocumentType": "Tax Clearance", "ServiceId": "tax-clearance" },
+        { "DocumentType": "Compliance Letter", "ServiceId": "compliance-letter" },
+        { "DocumentType": "EUDI-W Attestation", "ServiceId": "eudiw-attestation" }
+      ]
+    },
+    {
+      "InstitutionType": "Commercial Bank",
+      "DocumentTypes": [
+        { "DocumentType": "Bank Statement", "ServiceId": "bank-statement" },
+        { "DocumentType": "Account Confirmation", "ServiceId": "account-confirmation" },
+        { "DocumentType": "Proof of Account", "ServiceId": "proof-of-account" },
+        { "DocumentType": "EUDI-W Attestation", "ServiceId": "eudiw-attestation" }
+      ]
+    },
+    {
+      "InstitutionType": "Insurance Regulator",
+      "DocumentTypes": [
+        { "DocumentType": "Insurance License", "ServiceId": "insurance-license" },
+        { "DocumentType": "Compliance Certificate", "ServiceId": "compliance-certificate" },
+        { "DocumentType": "EUDI-W Attestation", "ServiceId": "eudiw-attestation" }
+      ]
+    }
+  ]
+}

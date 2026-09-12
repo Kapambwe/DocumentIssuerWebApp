@@ -1,0 +1,259 @@
+{
+  "CountrySlug": "zambia",
+  "CountryName": "Zambia",
+  "DisplayName": "Republic of Zambia",
+  "Description": "Document workflows available to institutions operating in Zambia.",
+  "Workflows": [
+    {
+      "ServiceId": "national-id",
+      "Schema": {
+        "ServiceId": "national-id",
+        "ServiceName": "National Identity Card Issuance",
+        "AgencyName": "Department of National Registration",
+        "Category": "Civil Registry",
+        "ApplicationFee": 25.00,
+        "Requirements": [ { "Id": "birth_cert", "Label": "Birth Certificate", "CredentialType": "BirthCertificateCredential", "IsMandatory": true } ],
+        "ReviewChecklist": [ "Verify Birth Certificate validity", "Confirm citizen biometrics" ],
+        "Sections": [ { "Title": "Personal Details", "Fields": [ { "Label": "Given Name", "BindingProperty": "GivenName", "Type": 0, "IsRequired": true }, { "Label": "Family Name", "BindingProperty": "FamilyName", "Type": 0, "IsRequired": true }, { "Label": "Date of Birth", "BindingProperty": "DateOfBirth", "Type": 2, "IsRequired": true } ] } ]
+      }
+    },
+    {
+      "ServiceId": "drivers-license",
+      "Schema": {
+        "ServiceId": "drivers-license",
+        "ServiceName": "Driver's License Issuance",
+        "AgencyName": "Road Transport and Safety Agency",
+        "Category": "Transport",
+        "ApplicationFee": 150.00,
+        "Requirements": [ { "Id": "national_id", "Label": "National Identity Card", "CredentialType": "NationalIdentityCredential", "IsMandatory": true }, { "Id": "medical_cert", "Label": "Medical Fitness Certificate", "CredentialType": "PdfDocument", "IsMandatory": true } ],
+        "ReviewChecklist": [ "Verify Identity", "Validate Medical Certificate", "Confirm passed driving test" ],
+        "Sections": [ { "Title": "License Details", "Fields": [ { "Label": "License Class", "BindingProperty": "LicenseClass", "Type": 3, "IsRequired": true, "Options": ["A (Motorcycle)", "B (Light Motor Vehicle)", "C (Heavy Motor Vehicle)"] }, { "Label": "Restriction Codes", "BindingProperty": "Restrictions", "Type": 0, "IsRequired": false } ] } ]
+      }
+    },
+    {
+      "ServiceId": "mining-permit",
+      "Schema": {
+        "ServiceId": "mining-permit",
+        "ServiceName": "Artisanal Mining Permit",
+        "AgencyName": "Mining Cadastre Department",
+        "Category": "Natural Resources",
+        "ApplicationFee": 500.00,
+        "Requirements": [ { "Id": "national_id", "Label": "National Identity Card", "CredentialType": "NationalIdentityCredential", "IsMandatory": true } ],
+        "ReviewChecklist": [ "Verify Identity", "Check coordinates against protected areas", "Confirm environmental compliance" ],
+        "Sections": [ { "Title": "Operation Details", "Fields": [ { "Label": "Company/Individual Name", "BindingProperty": "CompanyName", "Type": 0, "IsRequired": true }, { "Label": "Mineral Type", "BindingProperty": "MineralType", "Type": 3, "IsRequired": true, "Options": ["Gold", "Copper", "Emeralds", "Industrial Minerals"] }, { "Label": "Coordinates (Lat/Long)", "BindingProperty": "Coordinates", "Type": 0, "IsRequired": true } ] } ]
+      }
+    },
+    {
+      "ServiceId": "bank-statement",
+      "Schema": {
+        "ServiceId": "bank-statement",
+        "ServiceName": "Verifiable Bank Statement",
+        "AgencyName": "Financial Institution",
+        "Category": "Financial Services",
+        "ApplicationFee": 5.00,
+        "Requirements": [ { "Id": "national_id", "Label": "National Identity Card", "CredentialType": "NationalIdentityCredential", "IsMandatory": true } ],
+        "ReviewChecklist": [ "Verify identity matches account holder", "Ensure account is active", "Confirm statement period validity" ],
+        "Sections": [ { "Title": "Request Details", "Fields": [ { "Label": "Account Number", "BindingProperty": "AccountNumber", "Type": 0, "IsRequired": true }, { "Label": "Start Date", "BindingProperty": "StartDate", "Type": 2, "IsRequired": true }, { "Label": "End Date", "BindingProperty": "EndDate", "Type": 2, "IsRequired": true }, { "Label": "Reason for Request", "BindingProperty": "RequestReason", "Type": 6, "IsRequired": false } ] } ]
+      }
+    },
+    {
+      "ServiceId": "payslip",
+      "Schema": {
+        "ServiceId": "payslip",
+        "ServiceName": "Verifiable Payslip Issuance",
+        "AgencyName": "Corporate Employer HR",
+        "Category": "Employment",
+        "ApplicationFee": 0.00,
+        "Requirements": [ { "Id": "national_id", "Label": "National Identity Card", "CredentialType": "NationalIdentityCredential", "IsMandatory": true } ],
+        "ReviewChecklist": [ "Verify employee record matches ID", "Validate employment status for the requested period" ],
+        "Sections": [ { "Title": "Payslip Request", "Fields": [ { "Label": "Employee ID", "BindingProperty": "EmployeeId", "Type": 0, "IsRequired": true }, { "Label": "Pay Month", "BindingProperty": "PayMonth", "Type": 3, "IsRequired": true, "Options": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"] }, { "Label": "Pay Year", "BindingProperty": "PayYear", "Type": 1, "IsRequired": true } ] } ]
+      }
+    },
+    {
+      "ServiceId": "financial-statement",
+      "Schema": {
+        "ServiceId": "financial-statement",
+        "ServiceName": "Audited Financial Statement Credential",
+        "AgencyName": "Corporate Registration Authority",
+        "Category": "Corporate Finance",
+        "ApplicationFee": 250.00,
+        "Requirements": [ { "Id": "business_reg", "Label": "Business Registration Certificate", "CredentialType": "BusinessRegistrationCredential", "IsMandatory": true }, { "Id": "director_id", "Label": "Director National ID", "CredentialType": "NationalIdentityCredential", "IsMandatory": true } ],
+        "ReviewChecklist": [ "Verify company registration status", "Confirm requester is a registered director", "Check audit compliance status" ],
+        "Sections": [ { "Title": "Statement Details", "Fields": [ { "Label": "Company Registration Number", "BindingProperty": "CompanyRegNumber", "Type": 0, "IsRequired": true }, { "Label": "Financial Year Ending", "BindingProperty": "FinancialYear", "Type": 1, "IsRequired": true }, { "Label": "Statement Type", "BindingProperty": "StatementType", "Type": 3, "IsRequired": true, "Options": ["Income Statement", "Balance Sheet", "Cash Flow Statement", "Full Audited Report"] } ] } ]
+      }
+    },
+    {
+      "ServiceId": "napsa-compliance-certificate",
+      "Schema": {
+        "ServiceId": "napsa-compliance-certificate",
+        "ServiceName": "NAPSA Compliance Certificate",
+        "AgencyName": "National Pension Scheme Authority",
+        "Category": "Social Security",
+        "ApplicationFee": 50.00,
+        "Requirements": [
+          { "Id": "business_reg", "Label": "Business Registration Certificate", "CredentialType": "BusinessRegistrationCredential", "IsMandatory": true },
+          { "Id": "tax_clearance", "Label": "ZRA Tax Clearance", "CredentialType": "TaxClearanceCredential", "IsMandatory": true }
+        ],
+        "ReviewChecklist": [
+          "Verify employer registration status",
+          "Confirm contribution compliance",
+          "Validate tax clearance evidence"
+        ],
+        "Sections": [
+          {
+            "Title": "Employer Details",
+            "Fields": [
+              { "Label": "Company Name", "BindingProperty": "CompanyName", "Type": 0, "IsRequired": true },
+              { "Label": "Employer Number", "BindingProperty": "EmployerNumber", "Type": 0, "IsRequired": true },
+              { "Label": "Contribution Period", "BindingProperty": "ContributionPeriod", "Type": 0, "IsRequired": true },
+              { "Label": "Reference Number", "BindingProperty": "ReferenceNumber", "Type": 0, "IsRequired": false }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "ServiceId": "zppa-compliance-certificate",
+      "Schema": {
+        "ServiceId": "zppa-compliance-certificate",
+        "ServiceName": "Procurement Compliance Certificate",
+        "AgencyName": "Zambia Public Procurement Authority",
+        "Category": "Procurement",
+        "ApplicationFee": 75.00,
+        "Requirements": [
+          { "Id": "business_reg", "Label": "Business Registration Certificate", "CredentialType": "BusinessRegistrationCredential", "IsMandatory": true },
+          { "Id": "tax_clearance", "Label": "ZRA Tax Clearance", "CredentialType": "TaxClearanceCredential", "IsMandatory": true }
+        ],
+        "ReviewChecklist": [
+          "Confirm bidder registration",
+          "Validate tax and statutory compliance",
+          "Check procurement standing"
+        ],
+        "Sections": [
+          {
+            "Title": "Supplier Details",
+            "Fields": [
+              { "Label": "Supplier Name", "BindingProperty": "SupplierName", "Type": 0, "IsRequired": true },
+              { "Label": "TPIN", "BindingProperty": "Tpin", "Type": 0, "IsRequired": true },
+              { "Label": "Tender Reference", "BindingProperty": "TenderReference", "Type": 0, "IsRequired": true },
+              { "Label": "Certificate Purpose", "BindingProperty": "CertificatePurpose", "Type": 0, "IsRequired": false }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "ServiceId": "university-degree",
+      "Schema": {
+        "ServiceId": "university-degree",
+        "ServiceName": "University Degree Issuance",
+        "AgencyName": "University of Zambia",
+        "Category": "Higher Education",
+        "ApplicationFee": 35.00,
+        "Requirements": [
+          { "Id": "student_record", "Label": "Student Record", "CredentialType": "StudentRecordCredential", "IsMandatory": true }
+        ],
+        "ReviewChecklist": [
+          "Confirm graduation status",
+          "Verify outstanding fees are cleared",
+          "Check award classification"
+        ],
+        "Sections": [
+          {
+            "Title": "Graduate Details",
+            "Fields": [
+              { "Label": "Student Number", "BindingProperty": "StudentNumber", "Type": 0, "IsRequired": true },
+              { "Label": "Full Name", "BindingProperty": "FullName", "Type": 0, "IsRequired": true },
+              { "Label": "Programme", "BindingProperty": "Programme", "Type": 0, "IsRequired": true },
+              { "Label": "Award Class", "BindingProperty": "AwardClass", "Type": 3, "IsRequired": true, "Options": ["First Class", "Upper Second", "Lower Second", "Pass"] }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "ServiceId": "transcript",
+      "Schema": {
+        "ServiceId": "transcript",
+        "ServiceName": "Academic Transcript Issuance",
+        "AgencyName": "University of Zambia",
+        "Category": "Higher Education",
+        "ApplicationFee": 20.00,
+        "Requirements": [
+          { "Id": "student_record", "Label": "Student Record", "CredentialType": "StudentRecordCredential", "IsMandatory": true }
+        ],
+        "ReviewChecklist": [
+          "Confirm enrolment history",
+          "Verify transcript record completeness",
+          "Ensure outstanding obligations are cleared"
+        ],
+        "Sections": [
+          {
+            "Title": "Transcript Request",
+            "Fields": [
+              { "Label": "Student Number", "BindingProperty": "StudentNumber", "Type": 0, "IsRequired": true },
+              { "Label": "Programme", "BindingProperty": "Programme", "Type": 0, "IsRequired": true },
+              { "Label": "Year of Study", "BindingProperty": "YearOfStudy", "Type": 1, "IsRequired": true },
+              { "Label": "Purpose", "BindingProperty": "Purpose", "Type": 6, "IsRequired": false }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "ServiceId": "enrollment-verification",
+      "Schema": {
+        "ServiceId": "enrollment-verification",
+        "ServiceName": "Enrollment Verification",
+        "AgencyName": "University of Zambia",
+        "Category": "Higher Education",
+        "ApplicationFee": 15.00,
+        "Requirements": [
+          { "Id": "student_record", "Label": "Student Record", "CredentialType": "StudentRecordCredential", "IsMandatory": true }
+        ],
+        "ReviewChecklist": [
+          "Validate current registration",
+          "Confirm programme status",
+          "Confirm verification recipient"
+        ],
+        "Sections": [
+          {
+            "Title": "Verification Details",
+            "Fields": [
+              { "Label": "Student Number", "BindingProperty": "StudentNumber", "Type": 0, "IsRequired": true },
+              { "Label": "Programme", "BindingProperty": "Programme", "Type": 0, "IsRequired": true },
+              { "Label": "Institution", "BindingProperty": "Institution", "Type": 0, "IsRequired": true },
+              { "Label": "Recipient", "BindingProperty": "Recipient", "Type": 0, "IsRequired": false }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "ServiceId": "eudiw-attestation",
+      "Schema": {
+        "ServiceId": "eudiw-attestation",
+        "ServiceName": "EUDI-W Attestation",
+        "AgencyName": "Government of Zambia",
+        "Category": "Interoperability",
+        "ApplicationFee": 0.00,
+        "Requirements": [],
+        "ReviewChecklist": [
+          "Confirm identity binding",
+          "Verify wallet attestation request",
+          "Issue trusted attestation"
+        ],
+        "Sections": [
+          {
+            "Title": "Attestation Details",
+            "Fields": [
+              { "Label": "Subject Identifier", "BindingProperty": "SubjectIdentifier", "Type": 0, "IsRequired": true },
+              { "Label": "Wallet Identifier", "BindingProperty": "WalletIdentifier", "Type": 0, "IsRequired": true },
+              { "Label": "Attestation Purpose", "BindingProperty": "AttestationPurpose", "Type": 6, "IsRequired": false }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "CountrySlug": "botswana",
+  "CountryName": "Botswana",
+  "DisplayName": "Republic of Botswana",
+  "Description": "Document types available to institutions operating in Botswana.",
+  "InstitutionTypeDocumentTypes": [
+    { "InstitutionType": "Civil Registry", "DocumentTypes": [ { "DocumentType": "Birth Certificate", "ServiceId": "birth-certificate" }, { "DocumentType": "National ID", "ServiceId": "national-id" }, { "DocumentType": "EUDI-W Attestation", "ServiceId": "eudiw-attestation" } ] },
+    { "InstitutionType": "Revenue Authority", "DocumentTypes": [ { "DocumentType": "Tax Clearance", "ServiceId": "tax-clearance" }, { "DocumentType": "Compliance Letter", "ServiceId": "compliance-letter" }, { "DocumentType": "EUDI-W Attestation", "ServiceId": "eudiw-attestation" } ] },
+    { "InstitutionType": "Commercial Bank", "DocumentTypes": [ { "DocumentType": "Bank Statement", "ServiceId": "bank-statement" }, { "DocumentType": "Account Verification Letter", "ServiceId": "account-verification-letter" }, { "DocumentType": "EUDI-W Attestation", "ServiceId": "eudiw-attestation" } ] },
+    { "InstitutionType": "Education Regulator", "DocumentTypes": [ { "DocumentType": "Qualification Equivalence", "ServiceId": "qualification-recognition" }, { "DocumentType": "Program Accreditation", "ServiceId": "accreditation-certificate" }, { "DocumentType": "EUDI-W Attestation", "ServiceId": "eudiw-attestation" } ] },
+    { "InstitutionType": "Insurance Regulator", "DocumentTypes": [ { "DocumentType": "Insurance License", "ServiceId": "insurance-license" }, { "DocumentType": "Regulatory Clearance", "ServiceId": "regulatory-clearance" }, { "DocumentType": "EUDI-W Attestation", "ServiceId": "eudiw-attestation" } ] }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "CountrySlug": "namibia",
+  "CountryName": "Namibia",
+  "DisplayName": "Republic of Namibia",
+  "Description": "Document types available to institutions operating in Namibia.",
+  "InstitutionTypeDocumentTypes": [
+    { "InstitutionType": "Revenue Authority", "DocumentTypes": [ { "DocumentType": "Tax Clearance", "ServiceId": "tax-clearance" }, { "DocumentType": "Customs Compliance Certificate", "ServiceId": "customs-compliance-certificate" }, { "DocumentType": "EUDI-W Attestation", "ServiceId": "eudiw-attestation" } ] },
+    { "InstitutionType": "Commercial Bank", "DocumentTypes": [ { "DocumentType": "Bank Statement", "ServiceId": "bank-statement" }, { "DocumentType": "Proof of Account", "ServiceId": "proof-of-account" }, { "DocumentType": "EUDI-W Attestation", "ServiceId": "eudiw-attestation" } ] },
+    { "InstitutionType": "Education Regulator", "DocumentTypes": [ { "DocumentType": "Qualification Recognition", "ServiceId": "qualification-recognition" }, { "DocumentType": "Accreditation Certificate", "ServiceId": "accreditation-certificate" }, { "DocumentType": "EUDI-W Attestation", "ServiceId": "eudiw-attestation" } ] },
+    { "InstitutionType": "Civil Registry", "DocumentTypes": [ { "DocumentType": "Identity Document", "ServiceId": "national-id" }, { "DocumentType": "Birth Certificate", "ServiceId": "birth-certificate" }, { "DocumentType": "Residence Permit", "ServiceId": "residence-permit" }, { "DocumentType": "EUDI-W Attestation", "ServiceId": "eudiw-attestation" } ] },
+    { "InstitutionType": "Insurance Regulator", "DocumentTypes": [ { "DocumentType": "Insurance License", "ServiceId": "insurance-license" }, { "DocumentType": "Compliance Notice", "ServiceId": "compliance-notice" }, { "DocumentType": "EUDI-W Attestation", "ServiceId": "eudiw-attestation" } ] }
+  ]
+}

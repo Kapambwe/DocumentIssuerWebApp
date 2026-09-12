@@ -1,0 +1,68 @@
+{
+  "CountrySlug": "botswana",
+  "CountryName": "Botswana",
+  "DisplayName": "Republic of Botswana",
+  "Description": "Public signing institutions authorised to sign digital government documents in Botswana.",
+  "Institutions": [
+    {
+      "InstitutionName": "Department of Civil and National Registration",
+      "InstitutionSlug": "department-of-civil-and-national-registration",
+      "InstitutionType": "Civil Registry",
+      "SignerName": "Chief Registrar",
+      "SignerRole": "Signatory Officer",
+      "PublicKeyId": "did:web:dcnr.gov.bw#key-1",
+      "PublicKeyType": "RSA-2048",
+      "PublicKeyPem": "-----BEGIN PUBLIC KEY-----\\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAbotswanaMockKey1QIDAQAB\\n-----END PUBLIC KEY-----",
+      "PublicKeyPurpose": "Signs civil registration and identity credential records.",
+      "DocumentsSigned": [ "Birth Certificate", "National ID" ]
+    },
+    {
+      "InstitutionName": "Botswana Unified Revenue Service",
+      "InstitutionSlug": "botswana-unified-revenue-service",
+      "InstitutionType": "Revenue Authority",
+      "SignerName": "Commissioner General",
+      "SignerRole": "Tax Signatory",
+      "PublicKeyId": "did:web:burs.org.bw#key-1",
+      "PublicKeyType": "RSA-3072",
+      "PublicKeyPem": "-----BEGIN PUBLIC KEY-----\\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAbursMockKey2QIDAQAB\\n-----END PUBLIC KEY-----",
+      "PublicKeyPurpose": "Signs tax compliance and clearance documents.",
+      "DocumentsSigned": [ "Tax Clearance", "Compliance Letter" ]
+    },
+    {
+      "InstitutionName": "Bank Gaborone",
+      "InstitutionSlug": "bank-gaborone",
+      "InstitutionType": "Commercial Bank",
+      "SignerName": "Head of Compliance",
+      "SignerRole": "Bank Signatory",
+      "PublicKeyId": "did:web:bankgaborone.co.bw#key-1",
+      "PublicKeyType": "RSA-3072",
+      "PublicKeyPem": "-----BEGIN PUBLIC KEY-----\\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAbgabMockBank1QIDAQAB\\n-----END PUBLIC KEY-----",
+      "PublicKeyPurpose": "Signs bank statements and account verification letters.",
+      "DocumentsSigned": [ "Bank Statement", "Account Verification Letter" ]
+    },
+    {
+      "InstitutionName": "Botswana Qualifications Authority",
+      "InstitutionSlug": "botswana-qualifications-authority",
+      "InstitutionType": "Education Regulator",
+      "SignerName": "Registrar",
+      "SignerRole": "Qualifications Signatory",
+      "PublicKeyId": "did:web:bqa.org.bw#key-1",
+      "PublicKeyType": "RSA-2048",
+      "PublicKeyPem": "-----BEGIN PUBLIC KEY-----\\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAbqaMockKey3QIDAQAB\\n-----END PUBLIC KEY-----",
+      "PublicKeyPurpose": "Signs qualification equivalence and accreditation documents.",
+      "DocumentsSigned": [ "Qualification Equivalence", "Program Accreditation" ]
+    },
+    {
+      "InstitutionName": "Non-Bank Financial Institutions Regulatory Authority",
+      "InstitutionSlug": "non-bank-financial-institutions-regulatory-authority",
+      "InstitutionType": "Insurance Regulator",
+      "SignerName": "Chief Executive Officer",
+      "SignerRole": "Regulatory Signatory",
+      "PublicKeyId": "did:web:nbfi.org.bw#key-1",
+      "PublicKeyType": "RSA-3072",
+      "PublicKeyPem": "-----BEGIN PUBLIC KEY-----\\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgCAQEAnbfMockIns1QIDAQAB\\n-----END PUBLIC KEY-----",
+      "PublicKeyPurpose": "Signs insurer approvals, regulatory notices, and compliance confirmations.",
+      "DocumentsSigned": [ "Insurance License", "Regulatory Clearance" ]
+    }
+  ]
+}

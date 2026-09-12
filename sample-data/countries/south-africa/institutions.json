@@ -1,0 +1,93 @@
+{
+  "CountrySlug": "south-africa",
+  "CountryName": "South Africa",
+  "DisplayName": "Republic of South Africa",
+  "Description": "Public signing institutions authorised to issue and sign digital government documents in South Africa.",
+  "Institutions": [
+    {
+      "InstitutionName": "Department of Home Affairs",
+      "InstitutionSlug": "department-of-home-affairs",
+      "InstitutionType": "Civil Registry",
+      "SignerName": "Director-General",
+      "SignerRole": "Chief Signatory",
+      "PublicKeyId": "did:web:dha.gov.za#key-1",
+      "PublicKeyType": "RSA-2048",
+      "PublicKeyPem": "-----BEGIN PUBLIC KEY-----\\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzDHAKeyMock1QIDAQAB\\n-----END PUBLIC KEY-----",
+      "PublicKeyPurpose": "Signs identity documents, birth records, and civil registration certificates.",
+      "DocumentsSigned": [ "Identity Document", "Birth Certificate", "Death Certificate" ]
+    },
+    {
+      "InstitutionName": "Road Traffic Management Corporation",
+      "InstitutionSlug": "road-traffic-management-corporation",
+      "InstitutionType": "Transport Authority",
+      "SignerName": "Chief Executive Officer",
+      "SignerRole": "Signing Authority",
+      "PublicKeyId": "did:web:rtmc.gov.za#key-1",
+      "PublicKeyType": "RSA-2048",
+      "PublicKeyPem": "-----BEGIN PUBLIC KEY-----\\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEARTMCKeyMock2QIDAQAB\\n-----END PUBLIC KEY-----",
+      "PublicKeyPurpose": "Signs driver licence validations and vehicle registration confirmations.",
+      "DocumentsSigned": [ "Driver's License", "Vehicle Registration" ]
+    },
+    {
+      "InstitutionName": "Companies and Intellectual Property Commission",
+      "InstitutionSlug": "companies-and-intellectual-property-commission",
+      "InstitutionType": "Business Registry",
+      "SignerName": "Commissioner",
+      "SignerRole": "Registrar",
+      "PublicKeyId": "did:web:cipc.gov.za#key-1",
+      "PublicKeyType": "RSA-3072",
+      "PublicKeyPem": "-----BEGIN PUBLIC KEY-----\\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEACIPCMockKey3QIDAQAB\\n-----END PUBLIC KEY-----",
+      "PublicKeyPurpose": "Signs company registration, trade name, and intellectual property documents.",
+      "DocumentsSigned": [ "Business Registration", "Trademark Registration" ]
+    },
+    {
+      "InstitutionName": "South African Revenue Service",
+      "InstitutionSlug": "south-african-revenue-service",
+      "InstitutionType": "Revenue Authority",
+      "SignerName": "Commissioner for Tax Administration",
+      "SignerRole": "Tax Signatory",
+      "PublicKeyId": "did:web:sars.gov.za#key-1",
+      "PublicKeyType": "RSA-3072",
+      "PublicKeyPem": "-----BEGIN PUBLIC KEY-----\\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEASARSKeyMock4QIDAQAB\\n-----END PUBLIC KEY-----",
+      "PublicKeyPurpose": "Signs tax clearance letters and compliance attestations.",
+      "DocumentsSigned": [ "Tax Clearance", "Compliance Letter" ]
+    },
+    {
+      "InstitutionName": "Standard Bank South Africa",
+      "InstitutionSlug": "standard-bank-south-africa",
+      "InstitutionType": "Commercial Bank",
+      "SignerName": "Head of Digital Compliance",
+      "SignerRole": "Bank Signatory",
+      "PublicKeyId": "did:web:standardbank.co.za#key-1",
+      "PublicKeyType": "RSA-3072",
+      "PublicKeyPem": "-----BEGIN PUBLIC KEY-----\\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsbsaMockBank1QIDAQAB\\n-----END PUBLIC KEY-----",
+      "PublicKeyPurpose": "Signs bank statements, account confirmations, and financing letters.",
+      "DocumentsSigned": [ "Bank Statement", "Account Confirmation" ]
+    },
+    {
+      "InstitutionName": "First National Bank South Africa",
+      "InstitutionSlug": "first-national-bank-south-africa",
+      "InstitutionType": "Commercial Bank",
+      "SignerName": "Digital Channel Manager",
+      "SignerRole": "Bank Signatory",
+      "PublicKeyId": "did:web:fnb.co.za#key-1",
+      "PublicKeyType": "RSA-3072",
+      "PublicKeyPem": "-----BEGIN PUBLIC KEY-----\\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsfnbMockBank2QIDAQAB\\n-----END PUBLIC KEY-----",
+      "PublicKeyPurpose": "Signs customer bank statements and proof-of-account documents.",
+      "DocumentsSigned": [ "Bank Statement", "Proof of Account" ]
+    }
+    ,
+    {
+      "InstitutionName": "Financial Sector Conduct Authority",
+      "InstitutionSlug": "financial-sector-conduct-authority",
+      "InstitutionType": "Insurance Regulator",
+      "SignerName": "Commissioner",
+      "SignerRole": "Regulatory Signatory",
+      "PublicKeyId": "did:web:fsca.co.za#key-1",
+      "PublicKeyType": "RSA-3072",
+      "PublicKeyPem": "-----BEGIN PUBLIC KEY-----\\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgCAQEAsfscaMockIns1QIDAQAB\\n-----END PUBLIC KEY-----",
+      "PublicKeyPurpose": "Signs insurer licences, compliance confirmations, and market conduct notices.",
+      "DocumentsSigned": [ "Insurance License", "Compliance Certificate" ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "CountrySlug": "malawi",
+  "CountryName": "Malawi",
+  "DisplayName": "Republic of Malawi",
+  "Description": "Document types available to institutions operating in Malawi.",
+  "InstitutionTypeDocumentTypes": [
+    { "InstitutionType": "Civil Registry", "DocumentTypes": [ { "DocumentType": "National ID", "ServiceId": "national-id" }, { "DocumentType": "Birth Certificate", "ServiceId": "birth-certificate" }, { "DocumentType": "EUDI-W Attestation", "ServiceId": "eudiw-attestation" } ] },
+    { "InstitutionType": "Revenue Authority", "DocumentTypes": [ { "DocumentType": "Tax Clearance", "ServiceId": "tax-clearance" }, { "DocumentType": "Revenue Compliance Certificate", "ServiceId": "revenue-compliance-certificate" }, { "DocumentType": "EUDI-W Attestation", "ServiceId": "eudiw-attestation" } ] },
+    { "InstitutionType": "Commercial Bank", "DocumentTypes": [ { "DocumentType": "Bank Statement", "ServiceId": "bank-statement" }, { "DocumentType": "Account Verification Letter", "ServiceId": "account-verification-letter" }, { "DocumentType": "EUDI-W Attestation", "ServiceId": "eudiw-attestation" } ] },
+    { "InstitutionType": "Transport Authority", "DocumentTypes": [ { "DocumentType": "Driver's License", "ServiceId": "drivers-license" }, { "DocumentType": "Transport Permit", "ServiceId": "transport-permit" }, { "DocumentType": "EUDI-W Attestation", "ServiceId": "eudiw-attestation" } ] },
+    { "InstitutionType": "Insurance Regulator", "DocumentTypes": [ { "DocumentType": "Insurance License", "ServiceId": "insurance-license" }, { "DocumentType": "Compliance Notice", "ServiceId": "compliance-notice" }, { "DocumentType": "EUDI-W Attestation", "ServiceId": "eudiw-attestation" } ] }
+  ]
+}

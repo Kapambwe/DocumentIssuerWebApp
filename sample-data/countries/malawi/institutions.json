@@ -1,0 +1,68 @@
+{
+  "CountrySlug": "malawi",
+  "CountryName": "Malawi",
+  "DisplayName": "Republic of Malawi",
+  "Description": "Public signing institutions authorised to sign digital government documents in Malawi.",
+  "Institutions": [
+    {
+      "InstitutionName": "National Registration Bureau",
+      "InstitutionSlug": "national-registration-bureau",
+      "InstitutionType": "Civil Registry",
+      "SignerName": "Chief Registrar",
+      "SignerRole": "Signatory Officer",
+      "PublicKeyId": "did:web:nrb.gov.mw#key-1",
+      "PublicKeyType": "RSA-2048",
+      "PublicKeyPem": "-----BEGIN PUBLIC KEY-----\\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmalawiMockKey1QIDAQAB\\n-----END PUBLIC KEY-----",
+      "PublicKeyPurpose": "Signs national identity, birth, and civil registration records.",
+      "DocumentsSigned": [ "Birth Certificate", "National ID" ]
+    },
+    {
+      "InstitutionName": "Malawi Revenue Authority",
+      "InstitutionSlug": "malawi-revenue-authority",
+      "InstitutionType": "Revenue Authority",
+      "SignerName": "Commissioner General",
+      "SignerRole": "Tax Signatory",
+      "PublicKeyId": "did:web:mra.mw#key-1",
+      "PublicKeyType": "RSA-3072",
+      "PublicKeyPem": "-----BEGIN PUBLIC KEY-----\\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmraMockKey2QIDAQAB\\n-----END PUBLIC KEY-----",
+      "PublicKeyPurpose": "Signs tax clearance and revenue compliance documents.",
+      "DocumentsSigned": [ "Tax Clearance", "Revenue Compliance Certificate" ]
+    },
+    {
+      "InstitutionName": "National Bank of Malawi",
+      "InstitutionSlug": "national-bank-of-malawi",
+      "InstitutionType": "Commercial Bank",
+      "SignerName": "Head of Compliance",
+      "SignerRole": "Bank Signatory",
+      "PublicKeyId": "did:web:nbm.mw#key-1",
+      "PublicKeyType": "RSA-3072",
+      "PublicKeyPem": "-----BEGIN PUBLIC KEY-----\\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAknbmMockBank1QIDAQAB\\n-----END PUBLIC KEY-----",
+      "PublicKeyPurpose": "Signs bank statements and account verification letters.",
+      "DocumentsSigned": [ "Bank Statement", "Account Verification Letter" ]
+    },
+    {
+      "InstitutionName": "Department of Road Traffic and Safety Services",
+      "InstitutionSlug": "department-of-road-traffic-and-safety-services",
+      "InstitutionType": "Transport Authority",
+      "SignerName": "Director of Driver Licensing",
+      "SignerRole": "Licensing Authority",
+      "PublicKeyId": "did:web:drtss.gov.mw#key-1",
+      "PublicKeyType": "RSA-2048",
+      "PublicKeyPem": "-----BEGIN PUBLIC KEY-----\\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAdrTSSMockKey3QIDAQAB\\n-----END PUBLIC KEY-----",
+      "PublicKeyPurpose": "Signs driver licences and transport authorization documents.",
+      "DocumentsSigned": [ "Driver's License", "Transport Permit" ]
+    },
+    {
+      "InstitutionName": "Reserve Bank of Malawi Insurance Directorate",
+      "InstitutionSlug": "reserve-bank-of-malawi-insurance-directorate",
+      "InstitutionType": "Insurance Regulator",
+      "SignerName": "Director of Insurance Supervision",
+      "SignerRole": "Regulatory Signatory",
+      "PublicKeyId": "did:web:rbm.mw#key-insurance-1",
+      "PublicKeyType": "RSA-3072",
+      "PublicKeyPem": "-----BEGIN PUBLIC KEY-----\\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArmwMockIns1QIDAQAB\\n-----END PUBLIC KEY-----",
+      "PublicKeyPurpose": "Signs insurer registrations, supervisory notices, and compliance approvals.",
+      "DocumentsSigned": [ "Insurance License", "Compliance Notice" ]
+    }
+  ]
+}

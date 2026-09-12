@@ -1,0 +1,38 @@
+[
+  {
+    "CountrySlug": "zambia",
+    "CountryName": "Zambia",
+    "DisplayName": "Republic of Zambia",
+    "RegistryPath": "sample-data/countries/zambia/institutions.json"
+  },
+  {
+    "CountrySlug": "south-africa",
+    "CountryName": "South Africa",
+    "DisplayName": "Republic of South Africa",
+    "RegistryPath": "sample-data/countries/south-africa/institutions.json"
+  },
+  {
+    "CountrySlug": "malawi",
+    "CountryName": "Malawi",
+    "DisplayName": "Republic of Malawi",
+    "RegistryPath": "sample-data/countries/malawi/institutions.json"
+  },
+  {
+    "CountrySlug": "zimbabwe",
+    "CountryName": "Zimbabwe",
+    "DisplayName": "Republic of Zimbabwe",
+    "RegistryPath": "sample-data/countries/zimbabwe/institutions.json"
+  },
+  {
+    "CountrySlug": "botswana",
+    "CountryName": "Botswana",
+    "DisplayName": "Republic of Botswana",
+    "RegistryPath": "sample-data/countries/botswana/institutions.json"
+  },
+  {
+    "CountrySlug": "namibia",
+    "CountryName": "Namibia",
+    "DisplayName": "Republic of Namibia",
+    "RegistryPath": "sample-data/countries/namibia/institutions.json"
+  }
+]

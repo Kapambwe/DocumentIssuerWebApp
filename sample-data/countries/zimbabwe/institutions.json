@@ -1,0 +1,68 @@
+{
+  "CountrySlug": "zimbabwe",
+  "CountryName": "Zimbabwe",
+  "DisplayName": "Republic of Zimbabwe",
+  "Description": "Public signing institutions authorised to sign digital government documents in Zimbabwe.",
+  "Institutions": [
+    {
+      "InstitutionName": "Civil Registry Department",
+      "InstitutionSlug": "civil-registry-department",
+      "InstitutionType": "Civil Registry",
+      "SignerName": "Registrar General",
+      "SignerRole": "Chief Signatory",
+      "PublicKeyId": "did:web:crd.gov.zw#key-1",
+      "PublicKeyType": "RSA-2048",
+      "PublicKeyPem": "-----BEGIN PUBLIC KEY-----\\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwzimbabweMockKey1QIDAQAB\\n-----END PUBLIC KEY-----",
+      "PublicKeyPurpose": "Signs birth registrations, death certificates, and national identity records.",
+      "DocumentsSigned": [ "Birth Certificate", "Death Certificate", "National ID" ]
+    },
+    {
+      "InstitutionName": "Zimbabwe Revenue Authority",
+      "InstitutionSlug": "zimbabwe-revenue-authority",
+      "InstitutionType": "Revenue Authority",
+      "SignerName": "Commissioner General",
+      "SignerRole": "Tax Signatory",
+      "PublicKeyId": "did:web:zimra.co.zw#key-1",
+      "PublicKeyType": "RSA-3072",
+      "PublicKeyPem": "-----BEGIN PUBLIC KEY-----\\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwzimraMockKey2QIDAQAB\\n-----END PUBLIC KEY-----",
+      "PublicKeyPurpose": "Signs tax clearance and customs compliance documents.",
+      "DocumentsSigned": [ "Tax Clearance", "Customs Compliance Certificate" ]
+    },
+    {
+      "InstitutionName": "CBZ Bank",
+      "InstitutionSlug": "cbz-bank",
+      "InstitutionType": "Commercial Bank",
+      "SignerName": "Head of Compliance",
+      "SignerRole": "Bank Signatory",
+      "PublicKeyId": "did:web:cbz.co.zw#key-1",
+      "PublicKeyType": "RSA-3072",
+      "PublicKeyPem": "-----BEGIN PUBLIC KEY-----\\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAcbzMockBank1QIDAQAB\\n-----END PUBLIC KEY-----",
+      "PublicKeyPurpose": "Signs bank statements and account verification letters.",
+      "DocumentsSigned": [ "Bank Statement", "Account Verification Letter" ]
+    },
+    {
+      "InstitutionName": "Zimbabwe Council for Higher Education",
+      "InstitutionSlug": "zimbabwe-council-for-higher-education",
+      "InstitutionType": "Education Regulator",
+      "SignerName": "Council Secretary",
+      "SignerRole": "Registrar",
+      "PublicKeyId": "did:web:zimche.ac.zw#key-1",
+      "PublicKeyType": "RSA-2048",
+      "PublicKeyPem": "-----BEGIN PUBLIC KEY-----\\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwzimcheMockKey3QIDAQAB\\n-----END PUBLIC KEY-----",
+      "PublicKeyPurpose": "Signs higher education accreditation and qualification recognition documents.",
+      "DocumentsSigned": [ "Institution Accreditation", "Qualification Recognition" ]
+    },
+    {
+      "InstitutionName": "Insurance and Pensions Commission",
+      "InstitutionSlug": "insurance-and-pensions-commission",
+      "InstitutionType": "Insurance Regulator",
+      "SignerName": "Commissioner",
+      "SignerRole": "Regulatory Signatory",
+      "PublicKeyId": "did:web:ipc.co.zw#key-1",
+      "PublicKeyType": "RSA-3072",
+      "PublicKeyPem": "-----BEGIN PUBLIC KEY-----\\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApipcMockIns1QIDAQAB\\n-----END PUBLIC KEY-----",
+      "PublicKeyPurpose": "Signs insurer approvals, policy supervision notices, and sector compliance letters.",
+      "DocumentsSigned": [ "Insurance License", "Compliance Letter" ]
+    }
+  ]
+}

@@ -1,0 +1,382 @@
+{
+  "CountrySlug": "zambia",
+  "CountryName": "Zambia",
+  "DisplayName": "Republic of Zambia",
+  "Description": "Document types available to institutions operating in Zambia.",
+  "InstitutionDocumentTypes": [
+    {
+      "InstitutionSlug": "department-of-national-registration-passports-and-citizenship",
+      "InstitutionName": "Department of National Registration, Passports and Citizenship",
+      "DocumentTypes": [
+        {
+          "DocumentType": "National Registration Card",
+          "ServiceId": "national-id"
+        },
+        {
+          "DocumentType": "Passport",
+          "ServiceId": "passport"
+        },
+        {
+          "DocumentType": "Birth Certificate",
+          "ServiceId": "birth-certificate"
+        },
+        {
+          "DocumentType": "EUDI-W Attestation",
+          "ServiceId": "eudiw-attestation"
+        }
+      ]
+    },
+    {
+      "InstitutionSlug": "road-transport-and-safety-agency",
+      "InstitutionName": "Road Transport and Safety Agency",
+      "DocumentTypes": [
+        {
+          "DocumentType": "Driver's License",
+          "ServiceId": "drivers-license"
+        },
+        {
+          "DocumentType": "Vehicle Registration",
+          "ServiceId": "vehicle-registration"
+        },
+        {
+          "DocumentType": "EUDI-W Attestation",
+          "ServiceId": "eudiw-attestation"
+        }
+      ]
+    },
+    {
+      "InstitutionSlug": "patents-and-companies-registration-agency",
+      "InstitutionName": "Patents and Companies Registration Agency",
+      "DocumentTypes": [
+        {
+          "DocumentType": "Business Registration",
+          "ServiceId": "business-registration"
+        },
+        {
+          "DocumentType": "Company Certificate",
+          "ServiceId": "company-certificate"
+        },
+        {
+          "DocumentType": "EUDI-W Attestation",
+          "ServiceId": "eudiw-attestation"
+        }
+      ]
+    },
+    {
+      "InstitutionSlug": "bank-of-zambia",
+      "InstitutionName": "Bank of Zambia",
+      "DocumentTypes": [
+        {
+          "DocumentType": "Financial License",
+          "ServiceId": "financial-license"
+        },
+        {
+          "DocumentType": "Compliance Notice",
+          "ServiceId": "compliance-notice"
+        },
+        {
+          "DocumentType": "EUDI-W Attestation",
+          "ServiceId": "eudiw-attestation"
+        }
+      ]
+    },
+    {
+      "InstitutionSlug": "zambia-national-commercial-bank",
+      "InstitutionName": "Zambia National Commercial Bank",
+      "DocumentTypes": [
+        {
+          "DocumentType": "Bank Statement",
+          "ServiceId": "bank-statement"
+        },
+        {
+          "DocumentType": "Account Verification Letter",
+          "ServiceId": "account-verification-letter"
+        },
+        {
+          "DocumentType": "Balance Confirmation",
+          "ServiceId": "balance-confirmation"
+        },
+        {
+          "DocumentType": "EUDI-W Attestation",
+          "ServiceId": "eudiw-attestation"
+        }
+      ]
+    },
+    {
+      "InstitutionSlug": "first-national-bank-zambia",
+      "InstitutionName": "First National Bank Zambia",
+      "DocumentTypes": [
+        {
+          "DocumentType": "Bank Statement",
+          "ServiceId": "bank-statement"
+        },
+        {
+          "DocumentType": "Account Verification Letter",
+          "ServiceId": "account-verification-letter"
+        },
+        {
+          "DocumentType": "Balance Confirmation",
+          "ServiceId": "balance-confirmation"
+        },
+        {
+          "DocumentType": "EUDI-W Attestation",
+          "ServiceId": "eudiw-attestation"
+        }
+      ]
+    },
+    {
+      "InstitutionSlug": "pensions-and-insurance-authority",
+      "InstitutionName": "Pensions and Insurance Authority",
+      "DocumentTypes": [
+        {
+          "DocumentType": "Insurance License",
+          "ServiceId": "insurance-license"
+        },
+        {
+          "DocumentType": "Compliance Notice",
+          "ServiceId": "compliance-notice"
+        },
+        {
+          "DocumentType": "EUDI-W Attestation",
+          "ServiceId": "eudiw-attestation"
+        }
+      ]
+    },
+    {
+      "InstitutionSlug": "health-professions-council-of-zambia",
+      "InstitutionName": "Health Professions Council of Zambia",
+      "DocumentTypes": [
+        {
+          "DocumentType": "Professional License",
+          "ServiceId": "professional-license"
+        },
+        {
+          "DocumentType": "Good Standing Certificate",
+          "ServiceId": "good-standing-certificate"
+        },
+        {
+          "DocumentType": "Registration Certificate",
+          "ServiceId": "registration-certificate"
+        },
+        {
+          "DocumentType": "EUDI-W Attestation",
+          "ServiceId": "eudiw-attestation"
+        }
+      ]
+    },
+    {
+      "InstitutionSlug": "engineering-institution-of-zambia",
+      "InstitutionName": "Engineering Institution of Zambia",
+      "DocumentTypes": [
+        {
+          "DocumentType": "Professional License",
+          "ServiceId": "professional-license"
+        },
+        {
+          "DocumentType": "Good Standing Certificate",
+          "ServiceId": "good-standing-certificate"
+        },
+        {
+          "DocumentType": "Registration Certificate",
+          "ServiceId": "registration-certificate"
+        },
+        {
+          "DocumentType": "EUDI-W Attestation",
+          "ServiceId": "eudiw-attestation"
+        }
+      ]
+    },
+    {
+      "InstitutionSlug": "national-pension-scheme-authority",
+      "InstitutionName": "National Pension Scheme Authority",
+      "DocumentTypes": [
+        {
+          "DocumentType": "Compliance Certificate",
+          "ServiceId": "napsa-compliance-certificate"
+        },
+        {
+          "DocumentType": "Contribution Status Letter",
+          "ServiceId": "napsa-contribution-status"
+        },
+        {
+          "DocumentType": "EUDI-W Attestation",
+          "ServiceId": "eudiw-attestation"
+        }
+      ]
+    },
+    {
+      "InstitutionSlug": "zambia-public-procurement-authority",
+      "InstitutionName": "Zambia Public Procurement Authority",
+      "DocumentTypes": [
+        {
+          "DocumentType": "Compliance Certificate",
+          "ServiceId": "zppa-compliance-certificate"
+        },
+        {
+          "DocumentType": "Supplier Registration Certificate",
+          "ServiceId": "zppa-supplier-registration"
+        },
+        {
+          "DocumentType": "EUDI-W Attestation",
+          "ServiceId": "eudiw-attestation"
+        }
+      ]
+    },
+    {
+      "InstitutionSlug": "university-of-zambia",
+      "InstitutionName": "University of Zambia",
+      "DocumentTypes": [
+        {
+          "DocumentType": "University Degree",
+          "ServiceId": "university-degree"
+        },
+        {
+          "DocumentType": "Transcript",
+          "ServiceId": "transcript"
+        },
+        {
+          "DocumentType": "Enrollment Verification",
+          "ServiceId": "enrollment-verification"
+        },
+        {
+          "DocumentType": "EUDI-W Attestation",
+          "ServiceId": "eudiw-attestation"
+        }
+      ]
+    },
+    {
+      "InstitutionSlug": "examinations-council-of-zambia",
+      "InstitutionName": "Examinations Council of Zambia",
+      "DocumentTypes": [
+        {
+          "DocumentType": "Grade 12 Certificate",
+          "ServiceId": "grade12-certificate"
+        },
+        {
+          "DocumentType": "Grade 9 Certificate",
+          "ServiceId": "grade9-certificate"
+        },
+        {
+          "DocumentType": "Grade 7 Certificate",
+          "ServiceId": "grade7-certificate"
+        },
+        {
+          "DocumentType": "EUDI-W Attestation",
+          "ServiceId": "eudiw-attestation"
+        }
+      ]
+    },
+    {
+      "InstitutionSlug": "university-of-lusaka",
+      "InstitutionName": "University of Lusaka",
+      "DocumentTypes": [
+        {
+          "DocumentType": "University Degree",
+          "ServiceId": "university-degree"
+        },
+        {
+          "DocumentType": "Transcript",
+          "ServiceId": "transcript"
+        },
+        {
+          "DocumentType": "EUDI-W Attestation",
+          "ServiceId": "eudiw-attestation"
+        }
+      ]
+    },
+    {
+      "InstitutionSlug": "evelyn-hone-college",
+      "InstitutionName": "Evelyn Hone College",
+      "DocumentTypes": [
+        {
+          "DocumentType": "College Diploma",
+          "ServiceId": "college-diploma"
+        },
+        {
+          "DocumentType": "Transcript",
+          "ServiceId": "transcript"
+        },
+        {
+          "DocumentType": "EUDI-W Attestation",
+          "ServiceId": "eudiw-attestation"
+        }
+      ]
+    },
+    {
+      "InstitutionSlug": "national-institute-of-public-administration",
+      "InstitutionName": "National Institute of Public Administration",
+      "DocumentTypes": [
+        {
+          "DocumentType": "College Diploma",
+          "ServiceId": "college-diploma"
+        },
+        {
+          "DocumentType": "Transcript",
+          "ServiceId": "transcript"
+        },
+        {
+          "DocumentType": "Enrollment Verification",
+          "ServiceId": "enrollment-verification"
+        },
+        {
+          "DocumentType": "EUDI-W Attestation",
+          "ServiceId": "eudiw-attestation"
+        }
+      ]
+    },
+    {
+      "InstitutionSlug": "ministry-of-education",
+      "InstitutionName": "Ministry of Education",
+      "DocumentTypes": [
+        {
+          "DocumentType": "School Operating License",
+          "ServiceId": "school-operating-license"
+        },
+        {
+          "DocumentType": "School Registration Approval",
+          "ServiceId": "school-registration-approval"
+        },
+        {
+          "DocumentType": "EUDI-W Attestation",
+          "ServiceId": "eudiw-attestation"
+        }
+      ]
+    },
+    {
+      "InstitutionSlug": "technical-education-vocational-and-entrepreneurship-training-authority",
+      "InstitutionName": "Technical Education, Vocational and Entrepreneurship Training Authority",
+      "DocumentTypes": [
+        {
+          "DocumentType": "Institution Accreditation Certificate",
+          "ServiceId": "institution-accreditation"
+        },
+        {
+          "DocumentType": "Accredited Program Approval",
+          "ServiceId": "accredited-program-approval"
+        },
+        {
+          "DocumentType": "EUDI-W Attestation",
+          "ServiceId": "eudiw-attestation"
+        }
+      ]
+    },
+    {
+      "InstitutionSlug": "higher-education-authority",
+      "InstitutionName": "Higher Education Authority",
+      "DocumentTypes": [
+        {
+          "DocumentType": "HEI Registration Certificate",
+          "ServiceId": "hei-registration-certificate"
+        },
+        {
+          "DocumentType": "Program Accreditation Certificate",
+          "ServiceId": "program-accreditation"
+        },
+        {
+          "DocumentType": "EUDI-W Attestation",
+          "ServiceId": "eudiw-attestation"
+        }
+      ]
+    }
+  ]
+}
